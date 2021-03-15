@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Portfolio Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.hellroung.com/e4css/4/my.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.1;
+}
+#contacts {
+    text-align: center;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.title-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+<div class=" the top">
+<div class="top-bar top-red top-card top-left-align top-large">
+  <a class="top-bar-item top-button top-hide-medium top-hide-large top-right top-padding-large top-hover-white top-large top-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+   <a href="#" class="side-bar-item side-button side-padding-large side-white">Home</a>
+  <a href="aboutme.html" class="side-bar-item side-button side-hide-small side-padding-large side-hover-white">My Page</a>
+    <a href="aboutme.html#ContactMe" class="side-bar-item side-button side-hide-small side-padding-large side-hover-white">Follow Me</a>
+  
+</div>
+
+  <div id="navDemo" class="top-bar-block top-white top-hide top-hide-large top-hide-medium top-large">
+  <a href="aboutme.html" class="top-bar-item top-button top-padding-large">My Page</a>
+  <a href="aboutme.html#ContactMe" class="top-bar-item top-button top-padding-large">Follow Me</a>
+  </div>
+</div>
+
+<header class="-container body-red body-center" style="padding:128px 16px">
+ <h1 class="body-margin body-jumbo">WELCOME TO MY PORTFOLIO WEBSITE</h1>
+  <button class="body-button body-black body-padding-large body-large body-margin-top"><a href="#middlesection">Let's Start</a></button>
+</header>
+
+
+
+<div class="grid-row-padding grid-padding-64 grid-container">
+    
+<div class="row-content">
+   
+ <div class="row-twothird">
+        <h1><a name="middlesection">ABOUT ME</a></h1>
+
+  <h5 class="para-padding-32">Hi.I am Swayam.I am a first-year student currently pursing my undergraduate course at BITS-PILANI,Goa Campus.This being my first project under CTE course,I would love to have feedback from our instructers. </h5>
+
+      <p class="para-text-grey">Taking about Web-Design and Web-Devloptment, it has always been my greatest fascination to learn these skills and contribute.Apart from Web-Dev, i even love problem-solving and practise competitive programming as another skill.I love watching cricket and consider myself a decent player.I am someone who loves travelling and trying out new food.Apart of all these,I do love to watch movies and TV series when i am free.I believe being willing to learn new things and implement has been on rof my biggest strength and I look forward to learn more in my journrey at BITS.  </p>
+    </div>
+
+<div class="para-third para-center">
+      <i class="fa fa-anchor row-padding-64 row-text-red"></i>
+</div>
+</div>
+</div>
+
+<!-- Second Grid -->
+<div class="grid-row-padding grid-light-grey grid-padding-64 grid-container">
+<div class="grid-content">
+  <div class="row-third roe-center">
+      <i class="fa fa-coffee row-padding-64 row-text-red row-margin-right"></i>
+ </div>
+
+ <div class="para-twothird">
+   <h1>ABOUT THE PROJECT</h1>
+  <h5 class="para-padding-32">This has been a new kind of experience having working on a small yet my first project.Taking more about this project,this home page is not what i can take credit of creating.This home page is just a template,with some additions and changes from my end.Instructors should only consider the "About Me" page as my actual project which has been entirely developed by me. </h5>
+
+  <p class="para-text-grey">This page is mostly built using HTML and CSS styling.I have used JS at place which includes,a short word script that has been timed to print each word at a time-space of 100ms.Also I have added a bit of CSS animations which can be seen in the small animated logos.Bootstrap really helped me animate my skill bar and I just had to design the styling.Other than that I have only used standard HTML and CSS styling to build this Webpage. </p>
+    </div>
+    </div>
+</div>
+
+<div class="grid-container grid-black grid-center grid-opacity grid-padding-64">
+ <h1 class="paea-margin para-xlarge"></h1>
+ <h2>SPECIAL CREDITS: Arpit Bhardwaj, Vedant Sachin Bang, Kanishq Khandelwal.</h2>
+   <p align:"justify">This little project of mine wouldn't have been completed if they hadn't conducted those helful lectures.Thank You for teaching a noob like me. </p>
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+ var x = document.getElementById("navDemo");
+  if (x.className.indexOf("page-show") == -1) {
+    x.className += " page-show";
+} else { 
+    x.className = x.className.replace("", "");
+}
+}
+</script>
+
+</body>
+</html

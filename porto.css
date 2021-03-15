@@ -1,0 +1,48 @@
+html{
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+    background-size: cover;
+    background-attachment: local;
+    position:relative;
+    display: block;
+    text-align: center;
+    font-family:"Helvetica-neue", sans-serif;
+}
+ 
+class{
+    word-wrap:wrap;
+}
+
+
+.contact{
+    background-color: white;
+    border-style:dotted;
+    border-color:black;
+    border-radius:20;
+}
+
+
+
+
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.1;
+}
+#contacts {
+    text-align: center;
+}
+
+.para{
+    opacity:1.0;
+    transperancy:1.0;
+}

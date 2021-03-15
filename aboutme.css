@@ -1,0 +1,236 @@
+
+
+body {
+    font-family: Handlee;
+     font-size: 13pt;
+     background-color: #efefef;
+     padding: 10px;
+   }
+h1 {
+    font-size: 15pt;
+      color: #20bcd5;
+    text-align: center;
+        padding: 18px 0 18px 0;
+      margin: 0 0 10px 0;
+       }
+
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+
+.img-circle {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+      .section {
+         background-color: #fff;
+          border: 1px solid #e3e3e3;
+        padding: 20px;
+       margin-bottom: 20px;
+    border-radius: 10px;
+}
+#header {
+    text-align: center;
+    background-image: url("https://i.imgur.com/T2WWNwT.jpg");
+    background-size: cover;
+    padding: 40px 
+}
+
+    #header img {
+    
+    width: 130px;
+    height: 130px;
+    margin: auto;
+     }
+   #header p {
+    font-size: 25pt;
+    color: black;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+      width: 100%;
+      font-size: 11pt;
+}
+table, th, td {
+       border: 2px solid #cecece;
+    border-collapse: collapse;
+        text-align: center;
+    table-layout: fixed;
+}
+    .selected
+     {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+   }
+
+.face
+ {
+       transform: scale(0.4);
+       margin: 0 auto;
+      display: block;
+      margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+
+#contacts img:hover {
+    opacity: 0.8;
+}
+
+#contacts {
+    text-align: center;
+}
+.copyright {
+      font-size: 8pt;
+         text-align: right;
+        padding-bottom: 10px;
+    color: grey;
+}
+
+
+#ds{
+    font-family: "Montserrat";
+}
+
+.carousel-caption{
+    font-size:15px ;
+    font-family:"Montserrat";
+}
+
+.prof{
+    margin-left:37%;
+    margin-top:1%;
+}
+
+.bad{
+    margin-top:13%;
+    margin-left:-8%;
+}
+
+b{
+    font-size:30px;
+}
+
+.fa-wrench{
+  animation:rt 1.75s;
+  animation-iteration-count:infinite ;
+}
+
+@keyframes rt{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(70deg);}
+}
+
+.fas{
+  animation:rty 2s;
+  animation-iteration-count:infinite ;
+}
+
+@keyframes rty{
+    from{transform:rotateY(0deg);}
+    to{transform:rotateY(360deg);}
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before
+
+
+
+{
+      content:  attr(data-skill);
+  background-color: #f3b0ff;
+     display: inline-block;
+  padding: 5px 0 5px 10px;
+         border-radius: inherit;
+  animation: load 2s 0s;
+      -webkit-animation: load 2s 0s;
+     -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+
+.bar.learning::before{
+  width: calc(50% - 10px);
+}
+.bar.basic::before{
+  width: calc(100% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(100% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
+
+
